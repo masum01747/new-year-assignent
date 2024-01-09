@@ -119,16 +119,7 @@ div h3{
     line-height: 30px; /* 166.667% */
     width: 697px;
  }
- .new_container button{
-    color: #FFF;
-    text-align: center;
-    font-family: Inter;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    text-transform: uppercase;
- }
+ 
  .text_midnight{
    margin-left: 100px;
    padding-top: 190px;
@@ -144,7 +135,7 @@ div h3{
     align-items: center;
     flex-shrink: 0;
  }
- text_midnight button{
+ .text_midnight button{
     color: #FFF;
     text-align: center;
     font-family: Inter;
@@ -153,6 +144,150 @@ div h3{
     font-weight: 700;
     line-height: normal;
     text-transform: uppercase;
-    /* background: none; */
+    background: none;
+   background-color: transparent;
+   background-repeat: no-repeat;
+   border: none;
+   cursor: pointer;
+   overflow: hidden;
+   margin-left: 20px;
+   margin-top: 30px;
+ }
+
+ /* new park hotel section 3 */
+
+
+ .new_container1{
+    margin-top: 50px;
+     width: 100%;
+     height: 100vh;
+     /* padding:100px 386px 214px 385px; */
+     width: 1320px; 
+      height: 482px; 
+     flex-shrink: 0;
+     background-color: #ff000009;
+  
+  }
+  .text{
+     padding:100px 386px 214px 350px; 
+  }
+  .new_container1 h3{
+     color:#070211;
+     text-align: center;
+     font-family: Inter;
+     font-size: 32px;
+     font-style: normal;
+     font-weight: 600;
+     line-height: 56px; /* 175% */
+     text-transform: capitalize;
+  }
+  .colortext{
+     color:#ff0000
+  }
+  .btn{
+    background-color: #ff0000;
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    padding:10px 12px;
+    border: none;
+    border-radius: 5px;
+    /* margin:316px 77px 110px 576px */
+    margin-left: 200px;
+    margin-top: 25px;
+ }
+
+ /* best offer section 4 */
+
+
+ .container_coming{
+    width: 100%;
+    height: 100vh;
+    display:flex;
+    padding-top: 60px;
+    align-items: center;
+
+ }
+ .coming{
+   margin-top: 70px;
+   margin-right: 70px;
+ }
+ .coming h3{
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding-right: 180px;
+    margin-bottom: 0px;
+
+ }
+  
+ .coming h4{
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: capitalize;
+    padding-right: 65px;
+    margin-top: 0;
    
+ }
+ .coming h5{
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px; /* 160% */
+    width: 393px;
+ }
+ .ellipse{
+    border:15px solid #F00;
+    border-radius: 463px;
+    width: 300px;
+   height: 300px;
+   flex-shrink: 0;
+   
+ }
+ .container_2024{
+   
+   text-align: left ;
+   margin-left: 118px;
+   margin-top: 100px;
+ }
+ .container_2024 h3{
+   color: #F00;
+   font-family: Inter;
+   font-size: 48px;
+   font-style: normal;
+   font-weight: 700;
+   line-height: normal;
+   text-align: left;
+ }
+ .container_2024 h4{
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px; /* 160% */
+    text-align: left;
+ }
+
+
+ .containerpic{
+   display:flex
+ }
+ .container_2024{
+text-align: left ;
  }
