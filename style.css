@@ -1,0 +1,42 @@
+/*  shared for full body */ 
+*{
+    margin: 0;
+    padding: 0;
+}
+/* starting container banner1 happy new year */
+.banner-container{
+width: 100%;
+height: 100vh;
+}
+.banner{
+    background-image: url(../images/Banner\ Image.png)  ;
+    width: 1320px;
+    height: 600px;
+    flex-shrink: 0;
+    margin: 0 auto; 
+    align-items: center;
+    border-radius: 16px;
+    line-height: 15px;
+    background-color: rgba(0, 0, 0, 0.438);
+    background-blend-mode: multiply;
+     
+}
+.banner h1{
+    color: #FFF;
+    width: 632px;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 95px;
+    padding:0 344px 177px 344px;
+}
+.banner-text h2{
+    color: #FFF;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 32px;
+    font-weight: 400;
+    padding:180px 344px 35px 375px; 
+}
