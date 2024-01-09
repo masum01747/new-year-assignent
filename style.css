@@ -38,7 +38,7 @@
     font-family: Merriweather;
     font-size: 32px;
     font-weight: 400;
-    padding:180px 344px 35px 375px; 
+    padding:150px 344px 35px 375px; 
 }
 
 /* happy new year contain section 1 */
@@ -300,6 +300,7 @@ text-align: left ;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
+    magin:0px;
  }
  .function h2{
     color: #F00;
@@ -309,6 +310,7 @@ text-align: left ;
     font-style: normal;
     font-weight: 900;
     line-height: normal;
+    margin:0px;
  }
  .function h4{
     color: rgba(7, 2, 17, 0.60);
@@ -318,10 +320,167 @@ text-align: left ;
     font-style: normal;
     font-weight: 500;
     line-height: 32px; /* 160% */
-    width: 1068px;
+    width: 890px;
     text-align: center;
-    margin:200px 
- }
- /* discount section 6 */
+    margin-left: 200px;
+    margin-right: 350px;
 
+ }
+ .function{
+    margin-bottom: 70px;
+ }
  
+ /* .containerpic{
+    background-image: url(images/Rectangle\ 2.png);
+    height:300px;
+ } */
+
+ /* pictures section 6*/ 
+ .display_product{
+    
+    display: flex;
+    gap:20px;
+    flex-wrap: wrap;
+    border-radius: 10px;
+    cursor: pointer;
+ }
+ .display_product :hover{
+    background-color: darkseagreen;
+ }
+  .gift_text h4{
+    color: #F00;
+    font-family: Inter;
+    font-size:  24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-align: left;
+
+ }
+ .gift_text h3{
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: capitalize;
+    text-align: left;
+ }
+ .gift_text h5{
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px; /* 160% */
+    width: 896px;
+    margin-bottom: 0px;
+ }
+ .gift_text{
+    margin-top: 0px;
+    margin-bottom: 200px;
+ }
+
+
+ .container_subscribe{
+    margin-top: 50px;
+    text-align: center;
+ }
+ .container_subscribe h3{
+    color: #070211;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: capitalize;
+ }
+  .container_subscribe h4{
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px; /* 160% */
+    width: 896px;
+    margin-left: 200px;
+    margin-right: 150px;
+    margin-bottom: 25px;
+  }
+  .mail{
+    width: 348px;
+    height: 41px;
+    flex-shrink: 0;
+    border-radius: 50px 0px 0px 50px;
+    background: #FFF;
+    margin-right: 0px;
+    border-right: 0px;
+  }
+  .btn1{
+    color: #FFF;
+    width: 210px;
+    height: 45px;
+    flex-shrink: 0;
+    border-radius: 0px 50px 50px 0px;
+    background: #F00;
+    margin-left: 0px;
+    border-left: 0px;
+
+
+  }
+  .container_subscribe{
+    margin-top: 50px;
+    width: 100%;
+    height: 100vh;
+    /* padding:100px 386px 214px 385px; */
+    width: 1320px;  
+    flex-shrink: 0;
+    /* background-color: #ff000009; */
+    height: 616px;
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+    
+  }
+  /* footer */
+
+  .allfooter{
+    width: 1600px;
+    height: 609px;
+    flex-shrink: 0;
+    background: #070211;
+  }
+  .florida{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px; /* 166.667% */
+  }
+  .mobileno{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px; /* 166.667% */
+  }
+  .allright{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+  .unsubscribe{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    }
