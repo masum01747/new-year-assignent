@@ -330,12 +330,41 @@ text-align: left ;
     margin-bottom: 70px;
  }
  
- /* .containerpic{
-    background-image: url(images/Rectangle\ 2.png);
-    height:300px;
- } */
+ .pic1{
+   /* position:absolute; */
+
+
+ }
+ .pic2{
+   position:relative;
+   left: 100px;
+   top: 70px;
+   z-index: 2;
+
+ }
+ .pic3{
+   position:relative;
+   bottom: 350px;
+ }
+ 
+ .pic4{
+   position:absolute;
+   /* top:10px;  */
+   right: 1px;
+   z-index:1;
+   /* bottom: 5px; */
+ } 
+ .containerpic{
+   /* position:absolute */
+
+
+   
+ }
 
  /* pictures section 6*/ 
+ .gift_text{
+   margin-top: 20px;
+ }
  .display_product{
     
     display: flex;
@@ -459,6 +488,7 @@ text-align: left ;
     font-style: normal;
     font-weight: 500;
     line-height: 40px; /* 166.667% */
+    margin:120px 885px 409px 140px
   }
   .mobileno{
     color: #FFF;
