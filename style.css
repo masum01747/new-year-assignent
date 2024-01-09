@@ -40,3 +40,45 @@ height: 100vh;
     font-weight: 400;
     padding:180px 344px 35px 375px; 
 }
+
+/* happy new year contain section 1 */
+
+div h2{
+    padding-top: 50px;
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 88px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+div h4{
+    padding-top: 40px;
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    
+}
+div h3{
+    margin:0;
+    color: #070211;
+    text-align: center;
+    font-family: Inter;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    
+}
+.new_year{
+    padding-top: 50px;
+    margin: auto;
+    display: block;
+}
+
+ /* container for midnight Party  */
+
