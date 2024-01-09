@@ -257,6 +257,7 @@ div h3{
     width: 300px;
    height: 300px;
    flex-shrink: 0;
+   padding:10px;
 
  }
  .container_2024{
